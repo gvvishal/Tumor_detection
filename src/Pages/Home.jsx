@@ -7,7 +7,7 @@ import SecurityIcon from "@mui/icons-material/Security";
 import HealingIcon from "@mui/icons-material/Healing";
 
 // Replace with your API Gateway URL (from Lambda trigger)
-const API_URL = "https://abc123xyz.execute-api.us-east-1.amazonaws.com"; 
+const API_URL = "https://vip0jliz09.execute-api.ap-south-1.amazonaws.com/default/MyfirstLambda"; 
 
 function Home() {
   const [lambdaMessage, setLambdaMessage] = useState("Connecting...");
