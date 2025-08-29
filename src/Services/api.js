@@ -4,3 +4,4 @@ export async function testLambda() {
   const res = await fetch(API_URL);
   return res.json();
 }
+
